@@ -60,9 +60,11 @@
             <hr />
         {% for blog in blogs.all %}
         {{blog.title}}
-        {{blog.pub_date}}
+        {{blog.pub_date_pretty}}
         <br />
         <img src = "{{ blog.image.url }}" height=100 width=100>
+        <br />
+        <p>{{blog.summary}}</p>
         <br />
 
         {% endfor %}
