@@ -1,0 +1,3 @@
+SECRET_KEY = '#alz^b9sfk59tz@=)zlwa3+qe9#4gn*$v2dq$u%q&^wg&nb7e=*kittys'
+
+ALLOWED_HOSTS = 167.99.233.180[]
